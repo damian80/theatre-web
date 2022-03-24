@@ -54,3 +54,36 @@ header h1{
     line-height: 40vh;
     background-color: rgba(0,0,0,50%);
 }
+main{
+    max-width: 1440px;
+    margin:5vh auto;
+    /* font-size: 0; */
+}
+main p.description{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 30px 50px 30px;
+    line-height: 150%;
+}
+main div.feature{
+   display: inline-block;
+   width: 33%;
+}
+main div.image{
+height: 200px;
+background-color: #555;
+}
+main h2{
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+footer{
+    background-color: #555;
+}
+footer p{
+    color:white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 0;
+} 
